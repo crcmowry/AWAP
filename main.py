@@ -12,7 +12,7 @@ Example:
 from awap2019 import Direction, Game
 from absl import app, flags
 
-from player.team import Team as P
+from player.team2 import Team as P
 
 FLAGS = flags.FLAGS
 flags.DEFINE_integer('num_moves', 300, 'The number of moves in a game.')
